@@ -15,7 +15,14 @@ class Home extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.pinkAccent[400],
       ),
-      body: Center(child: Image.asset('assets/space-3.jpg')),
+      body: Center(
+        child: RaisedButton(
+          onPressed: () {
+            // function goes here
+          },
+          child: Text('click me'),
+        ),
+      ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
         child: Text('click'),
